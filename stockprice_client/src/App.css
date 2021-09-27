@@ -110,12 +110,47 @@ label {
   margin: 30px 30px;
 }
 
-
-
-.form-item {
-  padding-top:20px ;
-  margin-bottom: 30px;
+.nav-item-price {
+  margin-left: 150px;
+  font-size: 15px;
+  font-weight: 700;
 }
+
+.text-danger {
+  font-size: 18px;
+  color:#f45b5b;
+  margin-top: 5px;
+  font-weight: 300;
+}
+
+.text-success {
+  font-size: 18px;
+  color:#1db954;
+  margin-top:5px;
+  font-weight: 300;
+}
+
+
+.nav-item {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width:23%;
+  font-size: 14px;
+  padding: 10px 15px;
+  font-weight: 500;
+  color:aliceblue;
+  border-right: 1px solid #363636;
+  margin-right: 25px;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  
+  background-color:#222222
+}
+
 
 
 button[id="next-btn"] {
